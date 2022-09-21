@@ -14,7 +14,7 @@ while (true) {
   const prompt = promptSync()
   const userString = prompt('Guess a number between 1 to 6: ')
   const userNumber = parseInt(userString)
-  loopNumber++;
+  loopNumber++
   if (userNumber === random) {
     console.log(`You guessed the random number in ${loopNumber} times!`)
     break
